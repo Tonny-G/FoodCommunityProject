@@ -11,7 +11,7 @@ const IndexPage = () => {
         <img src="./img/header3.png" className="hero-image" alt="" />
         <div className="inner-hero-container">
           <h1 className="hero-title">
-            <span>Foodery</span>
+            <span>T's Foodery</span>
           </h1>
           <p className="hero-content-paragraph">
             What would you do if you had a thousand recipies at your disposal?
