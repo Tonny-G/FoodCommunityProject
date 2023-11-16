@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import '../App.css'
 
 const IndexPage = () => {
@@ -7,9 +8,11 @@ const IndexPage = () => {
     <div>
       <Header />
       <div className="hero-container">
-        <img src="./img/header.png" className="hero-image" alt="" />
+        <img src="./img/header3.png" className="hero-image" alt="" />
         <div className="inner-hero-container">
-          <h1 className="hero-title">Foodery</h1>
+          <h1 className="hero-title">
+            <span>Foodery</span>
+          </h1>
           <p className="hero-content-paragraph">
             What would you do if you had a thousand recipies at your disposal?
           </p>
@@ -52,6 +55,7 @@ const IndexPage = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
