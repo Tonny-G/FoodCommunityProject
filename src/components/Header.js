@@ -17,7 +17,7 @@ const Header = () => {
           Community
         </Link>
         <Link className="header-items" to="/recipe">
-          Recipe
+          Recipes
         </Link>
       </div>
     </div>

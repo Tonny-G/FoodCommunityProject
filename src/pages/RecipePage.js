@@ -15,7 +15,8 @@ const RecipePage = () => {
             Preparation Time:{my_recipe[recipe_id].preparation_time} | Servings:
             {my_recipe[recipe_id].servings} pax
           </p>
-          <img src="/img/chirashi-don.jpg" alt="" className="recipe-image" />
+         <img src={my_recipe[recipe_id].image} alt="" className="recipe-image"/>
+
           <h3>Ingredients:</h3>
           <ul>
             {my_recipe[recipe_id].ingredients.map((ingredient) => {

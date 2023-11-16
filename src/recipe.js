@@ -1,18 +1,78 @@
-export const my_recipe={
-    recipe_1:{
-        name:"Chirashi Don",
-        preparation_time:"30 mins",
-        servings:"2",
-        ingredients:[
-            '1/2 cup rice',
-            '1,2 cup water',
-            '2 eggs',
-            '300g of salmon,tuna and salmon roe'
-        ],
-        instructions:[
-            'Cook rice and water in a rice cooker',
-            'Fry eggs in a pan',
-            'Serve rice,eggs and fish on a plate'
-        ]
-    },
-}
+export const my_recipe = {
+  recipe_1: {
+    name: "Chirashi Don",
+    preparation_time: "30 mins",
+    servings: "2",
+    image: "/img/chirashi-don.jpg",
+    ingredients: [
+      "1/2 cup rice",
+      "1,2 cup water",
+      "2 eggs",
+      "300g of salmon,tuna and salmon roe",
+    ],
+    instructions: [
+      "Cook rice and water in a rice cooker",
+      "Fry eggs in a pan",
+      "Serve rice,eggs and fish on a plate",
+    ],
+  },
+  recipe_2: {
+    name: "Pepper steak",
+    preparation_time: "30 mins",
+    servings: "4",
+    image: "/img/pepper-steak-lead.jpg",
+    ingredients: [
+      "1/2 c. reduced-sodium soy sauce",
+      "1/4 c. rice wine vinegar",
+      "3 tbsp. packed light brown sugar",
+      "2 tbsp. cornstarch",
+      "2 tbsp. vegetable oil, divided",
+      "Kosher salt",
+      "Freshly ground black pepper",
+      "1 lb. flank steak, thinly sliced against the grain",
+      "1 green bell pepper, seeds and ribs removed, thinly sliced",
+      "1 red bell pepper, seeds and ribs removed, thinly sliced",
+      "3 cloves garlic, finely chopped",
+      "1 tbsp. finely chopped peeled ginger",
+      "Cooked white rice, for serving",
+    ],
+    instructions: [
+      "In a medium bowl, whisk soy sauce, vinegar, brown sugar, and cornstarch until combined",
+      "In a large skillet over high heat, heat 1 tablespoon oil. Working in batches, add steak; season with salt. Cook, turning occasionally, until browned on all sides, about 8 minutes total. Transfer steak to a plate",
+      "In same skillet over medium heat, heat remaining 1 tablespoon oil. Cook bell peppers, stirring occasionally, until softened, about 5 minutes. Add garlic and ginger and cook, stirring, until fragrant, about 1 minute more. Return beef to skillet and add sauce. Cook, stirring, until sauce is glossy, about 2 minutes more",
+      "Divide rice among plates. Spoon steak mixture over",
+    ],
+  },
+  recipe_3: {
+    name: "Clam Chowder",
+    preparation_time: "30 mins",
+    servings: "4",
+    image: "/img/clam-chowder.jpg",
+    ingredients: [
+      '4 slices bacon, cut into 1/2" pieces',
+      "2 tbsp. unsalted butter",
+      "1 yellow onion, finely chopped",
+      "2 stalks celery, finely chopped",
+      "3 cloves garlic, grated",
+      "1/4 c. all-purpose flour",
+      "1 (8-oz.) bottle clam juice",
+      "1 c. (or more) half-and-half",
+      "1 c. vegetable broth",
+      "2 russet potatoes, peeled, finely chopped",
+      "3 sprigs thyme",
+      "1 bay leaf",
+      "2 (6.5-oz.) cans chopped clams",
+      "Kosher salt",
+      "Freshly ground black pepper",
+      "3 tbsp. finely chopped chives",
+      "Oyster crackers, for serving",
+    ],
+    instructions: [
+      "In a large pot over medium heat, cook bacon, stirring occasionally, until crispy, 5 to 7 minutes. Using a slotted spoon, transfer bacon to paper towels, leaving fat in pot",
+      "In same pot over medium heat, add butter and stir until melted. Cook onion and celery, stirring occasionally, until tender, about 5 minutes. Stir in garlic and flour and cook, stirring, until garlic is fragrant and flour turns pale golden, about 1 minute",
+      "Add clam juice, half-and-half, and broth, whisking constantly until combined. Stir in potatoes, thyme, and bay leaf and bring to a boil. Reduce heat to medium-low and simmer until potatoes are tender, about 10 minutes",
+      "Add clams and cook until heated through, about 2 minutes; season with salt and pepper. If chowder is too thick, gradually stir in more half-and-half until you reach your desired consistency. Discard thyme and bay leaf",
+      "Divide soup among bowls. Top with bacon and chives. Serve with crackers alongside",
+    ],
+  },
+};
