@@ -1,3 +1,5 @@
 # FoodCommunityProject
 
-![Screenshot (108)](https://github.com/Tonny-G/FoodCommunityProject/assets/107466380/b658d0fe-1e47-4e63-b284-67272b0d1871)
+## Landing page
+![Screenshot (110)](https://github.com/Tonny-G/FoodCommunityProject/assets/107466380/b32d7b2d-33df-4087-af89-8355961546b0)
+
