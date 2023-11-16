@@ -1,14 +1,37 @@
-import React from 'react'
-import Header from '../components/Header'
-import { my_recipe } from '../recipe'
+import React from "react";
+import Header from "../components/Header";
+import { my_recipe } from "../recipe";
 
 const RecipePage = () => {
-    let recipe_id=window.location.pathname.split('/'[2])
+  let recipe_id = window.location.pathname.split("/")[2];
   return (
     <div>
-    <Header/>
-    </div>
-  )
-}
+      <Header />
+      <div className="container">
+        <div style={{ marginTop: "100px" }} className="inner-container">
+          <h1>{my_recipe[recipe_id].name}</h1>
+          <p>
+            Preparation Time:{my_recipe[recipe_id].preparation_time} | Servings:
+            {my_recipe[recipe_id].servings} pax
+          </p>
+          <img src="/img/chirashi-don.jpg" alt="" className="recipe-image" />
+          <h3>Ingredients:</h3>
+          <ul>
+            {my_recipe[recipe_id].ingredients.map((ingredient) => {
+              return <li>{ingredient}</li>;
+            })}
+          </ul>
 
-export default RecipePage
+          <h3>Procedure</h3>
+          <ol>
+            {my_recipe[recipe_id].instructions.map((instruction) => {
+              return <li>{instruction}</li>;
+            })}
+          </ol>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default RecipePage;
