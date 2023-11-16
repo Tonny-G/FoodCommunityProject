@@ -9,4 +9,5 @@
 ## A Recipe page
 ![Screenshot (114)](https://github.com/Tonny-G/FoodCommunityProject/assets/107466380/34a9c272-bd86-4aae-8f50-9eefb98271c2)
 
-
+## Community Page
+![Screenshot (115)](https://github.com/Tonny-G/FoodCommunityProject/assets/107466380/80432500-0552-41e0-a5ff-15c665ed6363)
