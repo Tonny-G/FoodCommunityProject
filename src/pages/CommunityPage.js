@@ -16,10 +16,18 @@ const CommunityPage = () => {
             />
             <div className="community-header-right">
               <h3 className="community-header-title">Join the Community</h3>
-              <div className="form">
-                <input type="email" placeholder="Enter your Email" />
-                <button>Join!</button>
-              </div>
+              <form
+                action="https://getform.io/f/a26cbb24-3174-4e81-996e-72a4c9f27b96"
+                method="POST"
+                className="form"
+              >
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Enter your Email"
+                />
+                <button type="submit">Join!</button>
+              </form>
             </div>
           </div>
           <div className="community-content">
